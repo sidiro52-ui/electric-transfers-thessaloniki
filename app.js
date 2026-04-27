@@ -18,7 +18,7 @@ const content = {
     skip: 'Skip to content',
     menu: 'Open navigation menu',
     brand: {
-      name: 'Company Name',
+      name: 'E-motion Transfers',
       tagline: 'Electric Transfers',
       location: 'Thessaloniki, Greece'
     },
@@ -126,9 +126,9 @@ const content = {
       quick: 'Quick links',
       contact: 'Contact',
       legal: 'Legal',
-      phone: '+30 2310 000 000',
-      whatsapp: 'WhatsApp: +30 690 000 0000',
-      email: 'info@example.com',
+      phone: '+30 2310 260 986 / +30 698 412 5261',
+      whatsapp: 'WhatsApp: +30 698 412 5261',
+      email: 'ride@e-motion.gr / info@e-motion.gr',
       backTop: 'Back to top'
     },
     legal: {
@@ -152,7 +152,7 @@ const content = {
     skip: 'Μετάβαση στο περιεχόμενο',
     menu: 'Άνοιγμα μενού πλοήγησης',
     brand: {
-      name: 'Όνομα Εταιρείας',
+      name: 'E-motion Transfers',
       tagline: 'Ηλεκτρικές Μεταφορές',
       location: 'Θεσσαλονίκη, Ελλάδα'
     },
@@ -260,9 +260,9 @@ const content = {
       quick: 'Γρήγοροι σύνδεσμοι',
       contact: 'Επικοινωνία',
       legal: 'Νομικά',
-      phone: '+30 2310 000 000',
-      whatsapp: 'WhatsApp: +30 690 000 0000',
-      email: 'info@example.com',
+      phone: '+30 2310 260 986 / +30 698 412 5261',
+      whatsapp: 'WhatsApp: +30 698 412 5261',
+      email: 'ride@e-motion.gr / info@e-motion.gr',
       backTop: 'Πίσω στην κορυφή'
     },
     legal: {
