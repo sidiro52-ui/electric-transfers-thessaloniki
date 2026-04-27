@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Premium private electric transfers in Thessaloniki, Greece, serving Thessaloniki Airport Makedonia / SKG, Halkidiki and Northern Greece."
+      data-i18n-meta="description"
+    />
+    <meta name="theme-color" content="#071118" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Premium Electric Transfers in Thessaloniki" data-i18n-meta="ogTitle" />
+    <meta
+      property="og:description"
+      content="Private airport transfers, business rides and tailor-made tours with 100% electric vehicles."
+      data-i18n-meta="ogDescription"
+    />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=1600&q=80" />
+    <title>Premium Electric Transfers in Thessaloniki</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="logo" href="#top" aria-label="Electric Transfer Company home">
+          <span class="logo-mark">EV</span>
+          <span>
+            <strong data-i18n="brand.name">Company Name</strong>
+            <small data-i18n="brand.tagline">Electric Transfers</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" data-i18n-aria="menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="menu" id="site-menu">
+          <ul class="nav-links">
+            <li><a href="#home" data-i18n="nav.home">Home</a></li>
+            <li><a href="#services" data-i18n="nav.services">Services</a></li>
+            <li><a href="#fleet" data-i18n="nav.fleet">Fleet</a></li>
+            <li><a href="#destinations" data-i18n="nav.destinations">Destinations</a></li>
+            <li><a href="#why" data-i18n="nav.why">Why Us</a></li>
+            <li><a href="#about" data-i18n="nav.about">About</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+
+          <div class="nav-actions" aria-label="Language and booking">
+            <div class="language-switch" aria-label="Language switcher">
+              <button class="lang-btn is-active" type="button" data-lang="en" aria-pressed="true">EN</button>
+              <button class="lang-btn" type="button" data-lang="el" aria-pressed="false">EL</button>
+            </div>
+            <a class="btn btn-primary btn-small" href="#contact" data-i18n="nav.book">Book Now</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-dark" id="home">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="hero.eyebrow">Thessaloniki, Greece / SKG Airport</p>
+            <h1 data-i18n="hero.title">Premium Electric Transfers in Thessaloniki</h1>
+            <p class="hero-text" data-i18n="hero.text">
+              Private airport transfers, business rides and tailor-made tours with 100% electric vehicles.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact" data-i18n="hero.primary">Book Your Transfer</a>
+              <a class="btn btn-secondary" href="#contact" data-i18n="hero.secondary">Request a Quote</a>
+            </div>
+            <div class="hero-stats" aria-label="Service highlights">
+              <span><strong>100%</strong><small data-i18n="stats.electric">Electric fleet</small></span>
+              <span><strong>24/7</strong><small data-i18n="stats.availability">Availability</small></span>
+              <span><strong>SKG</strong><small data-i18n="stats.airport">Airport transfers</small></span>
+            </div>
+          </div>
+
+          <div class="hero-media" aria-label="Electric vehicle in Thessaloniki">
+            <img
+              src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=1400&q=82"
+              alt="Premium electric vehicle placeholder"
+              data-i18n-alt="images.vehicle"
+            />
+            <div class="media-badge">
+              <span class="pulse"></span>
+              <span data-i18n="hero.badge">Zero-emission private travel</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="sections.servicesLabel">Private transport</p>
+          <h2 data-i18n="services.title">Our Services</h2>
+        </div>
+        <div class="card-grid service-grid" data-render="services"></div>
+      </section>
+
+      <section class="section split-section" id="fleet">
+        <div class="fleet-copy">
+          <p class="eyebrow" data-i18n="sections.fleetLabel">Clean luxury mobility</p>
+          <h2 data-i18n="fleet.title">100% Electric Fleet</h2>
+          <p data-i18n="fleet.text">
+            Travel in comfort with modern fully electric vehicles, offering a quiet, smooth and environmentally friendly ride.
+          </p>
+          <div class="feature-list" data-render="fleetFeatures"></div>
+        </div>
+        <div class="image-panel">
+          <img
+            src="https://images.unsplash.com/photo-1617704548623-340376564e68?auto=format&fit=crop&w=1200&q=82"
+            alt="Modern electric vehicle interior placeholder"
+            data-i18n-alt="images.interior"
+          />
+        </div>
+      </section>
+
+      <section class="section section-muted" id="destinations">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="sections.destinationsLabel">Northern Greece</p>
+          <h2 data-i18n="destinations.title">Popular Destinations</h2>
+        </div>
+        <div class="destination-wrap">
+          <div class="destination-list" data-render="destinations"></div>
+          <div class="city-image">
+            <img
+              src="https://images.unsplash.com/photo-1604590079278-f41f6efb7d88?auto=format&fit=crop&w=1200&q=82"
+              alt="Thessaloniki waterfront placeholder"
+              data-i18n-alt="images.thessaloniki"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="why">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="sections.whyLabel">Reliable by design</p>
+          <h2 data-i18n="why.title">Why Choose Us</h2>
+        </div>
+        <div class="why-grid" data-render="whyItems"></div>
+      </section>
+
+      <section class="section about section-dark" id="about">
+        <div>
+          <p class="eyebrow" data-i18n="sections.aboutLabel">About us</p>
+          <h2 data-i18n="about.title">Modern private transfers from Thessaloniki</h2>
+        </div>
+        <p data-i18n="about.text">
+          We are a modern transfer and tour company based in Thessaloniki, specializing in premium private transportation with 100% electric vehicles. Our goal is to offer reliable, comfortable and sustainable travel experiences across Thessaloniki, Halkidiki and Northern Greece.
+        </p>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-intro">
+          <p class="eyebrow" data-i18n="sections.contactLabel">Bookings & quotes</p>
+          <h2 data-i18n="contact.title">Book Your Electric Transfer</h2>
+          <p data-i18n="contact.text">Send your trip details and our team will reply with availability and a clear fixed price.</p>
+          <div class="contact-lines">
+            <a href="tel:+302310000000" data-i18n="footer.phone">+30 2310 000 000</a>
+            <a href="mailto:info@example.com" data-i18n="footer.email">info@example.com</a>
+            <a href="https://wa.me/306900000000" data-i18n="footer.whatsapp">WhatsApp: +30 690 000 0000</a>
+          </div>
+        </div>
+
+        <form class="booking-form" aria-label="Booking request form">
+          <label>
+            <span data-i18n="form.name">Full Name</span>
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            <span data-i18n="form.email">Email</span>
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+          <label>
+            <span data-i18n="form.phone">Phone / WhatsApp</span>
+            <input type="tel" name="phone" autocomplete="tel" />
+          </label>
+          <label>
+            <span data-i18n="form.pickup">Pickup Location</span>
+            <input type="text" name="pickup" />
+          </label>
+          <label>
+            <span data-i18n="form.dropoff">Drop-off Location</span>
+            <input type="text" name="dropoff" />
+          </label>
+          <label>
+            <span data-i18n="form.date">Date</span>
+            <input type="date" name="date" />
+          </label>
+          <label>
+            <span data-i18n="form.time">Time</span>
+            <input type="time" name="time" />
+          </label>
+          <label>
+            <span data-i18n="form.passengers">Number of Passengers</span>
+            <input type="number" name="passengers" min="1" max="30" />
+          </label>
+          <label class="full">
+            <span data-i18n="form.message">Message</span>
+            <textarea name="message" rows="5"></textarea>
+          </label>
+          <button class="btn btn-primary full" type="submit" data-i18n="form.submit">Send Request</button>
+          <p class="form-note" role="status" data-form-status></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <a class="logo footer-logo" href="#top">
+            <span class="logo-mark">EV</span>
+            <span>
+              <strong data-i18n="brand.name">Company Name</strong>
+              <small data-i18n="brand.location">Thessaloniki, Greece</small>
+            </span>
+          </a>
+          <p data-i18n="footer.copy">Premium electric private transfers in Thessaloniki, Halkidiki and Northern Greece.</p>
+          <div class="socials" aria-label="Social media placeholders">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="LinkedIn">IN</a>
+          </div>
+        </div>
+        <div>
+          <h3 data-i18n="footer.quick">Quick links</h3>
+          <ul>
+            <li><a href="#services" data-i18n="nav.services">Services</a></li>
+            <li><a href="#fleet" data-i18n="nav.fleet">Fleet</a></li>
+            <li><a href="#destinations" data-i18n="nav.destinations">Destinations</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 data-i18n="footer.contact">Contact</h3>
+          <ul>
+            <li data-i18n="brand.location">Thessaloniki, Greece</li>
+            <li><a href="tel:+302310000000" data-i18n="footer.phone">+30 2310 000 000</a></li>
+            <li><a href="https://wa.me/306900000000" data-i18n="footer.whatsapp">WhatsApp: +30 690 000 0000</a></li>
+            <li><a href="mailto:info@example.com" data-i18n="footer.email">info@example.com</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 data-i18n="footer.legal">Legal</h3>
+          <ul>
+            <li><a href="#" data-i18n="legal.privacy">Privacy Policy</a></li>
+            <li><a href="#" data-i18n="legal.terms">Terms & Conditions</a></li>
+            <li><a href="#" data-i18n="legal.cookies">Cookies Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year></span> <span data-i18n="brand.name">Company Name</span></span>
+        <a href="#top" data-i18n="footer.backTop">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
