@@ -97,12 +97,9 @@ textarea {
 }
 
 .logo-image {
-  width: 176px;
-  height: 54px;
+  width: 118px;
+  height: 38px;
   object-fit: contain;
-  padding: 6px 8px;
-  border-radius: var(--radius);
-  background: rgba(255, 255, 255, 0.96);
 }
 
 .logo strong,
@@ -681,8 +678,8 @@ h3 {
 }
 
 .footer-logo .logo-image {
-  width: 190px;
-  height: 58px;
+  width: 142px;
+  height: 46px;
 }
 
 .socials {
@@ -793,8 +790,8 @@ h3 {
   }
 
   .logo-image {
-    width: 142px;
-    height: 44px;
+    width: 104px;
+    height: 34px;
   }
 
   .section,
