@@ -126,9 +126,11 @@ const content = {
       quick: 'Quick links',
       contact: 'Contact',
       legal: 'Legal',
-      phone: '+30 2310 260 986 / +30 698 412 5261',
+      phoneLandline: '+30 2310 260 986',
+      phoneMobile: '+30 698 412 5261',
       whatsapp: 'WhatsApp: +30 698 412 5261',
-      email: 'ride@e-motion.gr / info@e-motion.gr',
+      emailRide: 'ride@e-motion.gr',
+      emailInfo: 'info@e-motion.gr',
       backTop: 'Back to top'
     },
     legal: {
@@ -260,9 +262,11 @@ const content = {
       quick: 'Γρήγοροι σύνδεσμοι',
       contact: 'Επικοινωνία',
       legal: 'Νομικά',
-      phone: '+30 2310 260 986 / +30 698 412 5261',
+      phoneLandline: '+30 2310 260 986',
+      phoneMobile: '+30 698 412 5261',
       whatsapp: 'WhatsApp: +30 698 412 5261',
-      email: 'ride@e-motion.gr / info@e-motion.gr',
+      emailRide: 'ride@e-motion.gr',
+      emailInfo: 'info@e-motion.gr',
       backTop: 'Πίσω στην κορυφή'
     },
     legal: {
