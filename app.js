@@ -140,7 +140,7 @@ const content = {
       cookies: 'Cookies Policy'
     },
     images: {
-      vehicle: 'Premium private transfer van',
+      vehicle: 'Premium Ford Tourneo private transfer vehicle',
       interior: 'Premium Ford Tourneo private transfer vehicle',
       thessaloniki: 'Premium transfer destinations in Northern Greece'
     }
@@ -277,7 +277,7 @@ const content = {
       cookies: 'Πολιτική Cookies'
     },
     images: {
-      vehicle: 'Premium ιδιωτικό van μεταφοράς',
+      vehicle: 'Premium Ford Tourneo όχημα ιδιωτικής μεταφοράς',
       interior: 'Premium Ford Tourneo όχημα ιδιωτικής μεταφοράς',
       thessaloniki: 'Premium προορισμοί μεταφοράς στη Βόρεια Ελλάδα'
     }
