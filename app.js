@@ -141,7 +141,7 @@ const content = {
     },
     images: {
       vehicle: 'Premium private transfer van',
-      interior: 'Modern electric vehicle interior placeholder',
+      interior: 'Premium Ford Tourneo private transfer vehicle',
       thessaloniki: 'Premium transfer destinations in Northern Greece'
     }
   },
@@ -278,7 +278,7 @@ const content = {
     },
     images: {
       vehicle: 'Premium ιδιωτικό van μεταφοράς',
-      interior: 'Placeholder εικόνας εσωτερικού σύγχρονου ηλεκτρικού οχήματος',
+      interior: 'Premium Ford Tourneo όχημα ιδιωτικής μεταφοράς',
       thessaloniki: 'Premium προορισμοί μεταφοράς στη Βόρεια Ελλάδα'
     }
   }
