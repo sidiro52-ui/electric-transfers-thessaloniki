@@ -359,19 +359,42 @@ const setLanguage = (lang) => {
 
 const menuButton = document.querySelector('.menu-toggle');
 const menu = document.querySelector('.menu');
+let lockedScrollY = 0;
+
+const openMenu = () => {
+  lockedScrollY = window.scrollY;
+  menu.classList.add('is-open');
+  document.body.classList.add('menu-open');
+  document.body.style.top = `-${lockedScrollY}px`;
+  menuButton.setAttribute('aria-expanded', 'true');
+};
+
+const closeMenu = () => {
+  menu.classList.remove('is-open');
+  document.body.classList.remove('menu-open');
+  document.body.style.top = '';
+  menuButton.setAttribute('aria-expanded', 'false');
+  window.scrollTo(0, lockedScrollY);
+};
 
 menuButton.addEventListener('click', () => {
-  const isOpen = menu.classList.toggle('is-open');
-  document.body.classList.toggle('menu-open', isOpen);
-  menuButton.setAttribute('aria-expanded', String(isOpen));
+  if (menu.classList.contains('is-open')) {
+    closeMenu();
+  } else {
+    openMenu();
+  }
 });
 
 document.querySelectorAll('.menu a').forEach((link) => {
   link.addEventListener('click', () => {
-    menu.classList.remove('is-open');
-    document.body.classList.remove('menu-open');
-    menuButton.setAttribute('aria-expanded', 'false');
+    closeMenu();
   });
+});
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 1040 && menu.classList.contains('is-open')) {
+    closeMenu();
+  }
 });
 
 document.querySelectorAll('.lang-btn').forEach((button) => {
