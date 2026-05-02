@@ -140,7 +140,7 @@ const content = {
       cookies: 'Cookies Policy'
     },
     images: {
-      vehicle: 'Premium electric vehicle placeholder',
+      vehicle: 'Premium private transfer van',
       interior: 'Modern electric vehicle interior placeholder',
       thessaloniki: 'Premium transfer destinations in Northern Greece'
     }
@@ -277,7 +277,7 @@ const content = {
       cookies: 'Πολιτική Cookies'
     },
     images: {
-      vehicle: 'Placeholder εικόνας premium ηλεκτρικού οχήματος',
+      vehicle: 'Premium ιδιωτικό van μεταφοράς',
       interior: 'Placeholder εικόνας εσωτερικού σύγχρονου ηλεκτρικού οχήματος',
       thessaloniki: 'Premium προορισμοί μεταφοράς στη Βόρεια Ελλάδα'
     }
