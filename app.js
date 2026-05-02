@@ -142,7 +142,7 @@ const content = {
     images: {
       vehicle: 'Premium electric vehicle placeholder',
       interior: 'Modern electric vehicle interior placeholder',
-      thessaloniki: 'Thessaloniki waterfront placeholder'
+      thessaloniki: 'Premium transfer destinations in Northern Greece'
     }
   },
   el: {
@@ -279,7 +279,7 @@ const content = {
     images: {
       vehicle: 'Placeholder εικόνας premium ηλεκτρικού οχήματος',
       interior: 'Placeholder εικόνας εσωτερικού σύγχρονου ηλεκτρικού οχήματος',
-      thessaloniki: 'Placeholder εικόνας παραλίας Θεσσαλονίκης'
+      thessaloniki: 'Premium προορισμοί μεταφοράς στη Βόρεια Ελλάδα'
     }
   }
 };
