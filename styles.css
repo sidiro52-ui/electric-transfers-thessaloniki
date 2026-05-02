@@ -373,18 +373,19 @@ h3 {
   min-height: 560px;
   display: grid;
   place-items: center;
-  padding: 34px;
+  padding: 0;
   background:
-    radial-gradient(circle at 55% 54%, rgba(56, 230, 178, 0.16), transparent 32%),
-    linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(7, 17, 24, 0.86));
+    radial-gradient(ellipse at 54% 58%, rgba(56, 230, 178, 0.2), transparent 33%),
+    radial-gradient(ellipse at 50% 72%, rgba(77, 185, 255, 0.12), transparent 28%);
+  box-shadow: none;
 }
 
 .hero-media img {
-  width: 100%;
+  width: min(112%, 680px);
   height: auto;
-  max-height: 76%;
+  max-height: 86%;
   object-fit: contain;
-  filter: drop-shadow(0 28px 36px rgba(0, 0, 0, 0.36));
+  filter: drop-shadow(0 34px 34px rgba(0, 0, 0, 0.44));
 }
 
 .hero-media::after,
@@ -814,7 +815,12 @@ h3 {
   .hero-media {
     min-height: 430px;
     aspect-ratio: 16 / 10;
-    padding: 24px;
+    padding: 0;
+  }
+
+  .hero-media img {
+    width: min(108%, 620px);
+    max-height: 84%;
   }
 
   .card-grid,
@@ -883,14 +889,16 @@ h3 {
   }
 
   .hero-media {
-    min-height: 320px;
+    min-height: 360px;
     aspect-ratio: 4 / 3;
-    max-height: 420px;
-    padding: 18px;
+    max-height: 460px;
+    padding: 0;
   }
 
   .hero-media img {
-    max-height: 70%;
+    width: 112%;
+    max-width: none;
+    max-height: 82%;
   }
 
   .media-badge {
