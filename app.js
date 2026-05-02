@@ -123,6 +123,7 @@ const content = {
     },
     footer: {
       copy: 'Premium electric private transfers in Thessaloniki, Halkidiki and Northern Greece.',
+      license: 'Αρ. ΜΗΤΕ: 0933Ε60000203101',
       quick: 'Quick links',
       contact: 'Contact',
       legal: 'Legal',
@@ -259,6 +260,7 @@ const content = {
     },
     footer: {
       copy: 'Premium ηλεκτρικές ιδιωτικές μεταφορές στη Θεσσαλονίκη, τη Χαλκιδική και τη Βόρεια Ελλάδα.',
+      license: 'Αρ. ΜΗΤΕ: 0933Ε60000203101',
       quick: 'Γρήγοροι σύνδεσμοι',
       contact: 'Επικοινωνία',
       legal: 'Νομικά',
